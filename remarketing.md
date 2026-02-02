@@ -1,10 +1,10 @@
-# Remarketing
+# 📣 Remarketing
 
 Track visitors and customers with Facebook Pixel, Google Ads, and custom scripts for retargeting campaigns.
 
 ---
 
-## Overview
+## 📋 Overview
 
 Remarketing tags fire on key ecommerce events:
 
@@ -18,7 +18,7 @@ Currency is taken from your store's base currency (Setup → Settings → Curren
 
 ---
 
-## Facebook (Meta) Pixel
+## 📘 Facebook (Meta) Pixel
 
 ### Configuration
 
@@ -27,7 +27,7 @@ Currency is taken from your store's base currency (Setup → Settings → Curren
 3. Enter your **Pixel ID** (e.g., from Facebook Events Manager).
 4. Save.
 
-### Events Fired
+### Events Fired ⚡
 
 - **PageView** — On product/store pages.
 - **ViewContent** — On product detail page.
@@ -37,7 +37,7 @@ Currency is taken from your store's base currency (Setup → Settings → Curren
 
 ---
 
-## Google Ads Remarketing
+## 🔍 Google Ads Remarketing
 
 ### Configuration
 
@@ -47,14 +47,14 @@ Currency is taken from your store's base currency (Setup → Settings → Curren
 4. Optionally enter the **Conversion Label**.
 5. Save.
 
-### Events
+### Events ⚡
 
 - Same ecommerce events as Facebook.
 - Purchase uses the configured `send_to` (ID + label) for conversion tracking.
 
 ---
 
-## Custom Script
+## 📜 Custom Script
 
 For other platforms (e.g., TikTok, Pinterest, custom analytics):
 
@@ -64,6 +64,6 @@ For other platforms (e.g., TikTok, Pinterest, custom analytics):
 
 ---
 
-## Thank-You Page
+## 🎉 Thank-You Page
 
 After a successful order, customers are briefly redirected to a **thank-you page** that fires the Purchase event with order total, then redirects to the invoice. This ensures the pixel fires even when payment happens on an external page.

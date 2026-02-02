@@ -1,10 +1,10 @@
-# Marketing Features
+# 📢 Marketing Features
 
 Perfex Shop includes a comprehensive set of marketing tools. Each feature can be enabled or disabled in **Setup → Settings → Products** under **Marketing Features**.
 
 ---
 
-## Product Reviews
+## ⭐ Product Reviews
 
 Let customers rate and review products.
 
@@ -23,7 +23,7 @@ Let customers rate and review products.
 
 ---
 
-## Referral Program
+## 🤝 Referral Program
 
 Customers earn commission by referring new buyers.
 
@@ -43,7 +43,7 @@ Customers earn commission by referring new buyers.
 
 ---
 
-## Back-in-Stock Notifications
+## 📦 Back-in-Stock Notifications
 
 Notify subscribers when out-of-stock products return.
 
@@ -61,7 +61,7 @@ Notify subscribers when out-of-stock products return.
 
 ---
 
-## Price Drop Alerts
+## 💰 Price Drop Alerts
 
 Notify subscribers when product prices drop.
 
@@ -78,7 +78,7 @@ Notify subscribers when product prices drop.
 
 ---
 
-## Newsletter / Marketing Consent
+## 📧 Newsletter / Marketing Consent
 
 Collect marketing opt-in at checkout.
 
@@ -95,7 +95,7 @@ Collect marketing opt-in at checkout.
 
 ---
 
-## Urgency / Low Stock
+## ⚡ Urgency / Low Stock
 
 Show urgency cues to encourage purchase.
 
@@ -111,7 +111,7 @@ Show urgency cues to encourage purchase.
 
 ---
 
-## Gift Cards
+## 🎁 Gift Cards
 
 Sell and redeem gift cards.
 
@@ -140,7 +140,7 @@ Sell and redeem gift cards.
 
 ---
 
-## Post-Purchase Upsell
+## 🚀 Post-Purchase Upsell
 
 Show related products after a purchase.
 
@@ -160,7 +160,7 @@ Show related products after a purchase.
 
 ---
 
-## Social Proof
+## 👥 Social Proof
 
 Show purchase activity to build trust.
 
@@ -178,7 +178,7 @@ Show purchase activity to build trust.
 
 ---
 
-## Product Recommendations
+## 💡 Product Recommendations
 
 "Customers who bought X also bought Y."
 
@@ -193,13 +193,13 @@ Show purchase activity to build trust.
 
 ---
 
-## A/B Testing & Segmentation
+## 🧪 A/B Testing & Segmentation
 
 These features have database tables and toggles. Full logic (traffic split, segment targeting) may be extended in future versions.
 
 ---
 
-## Email Templates
+## 📧 Email Templates
 
 Marketing-related email templates are registered with Perfex's email system. Manage them in **Setup → Email Templates** — look for the **Products** type.
 

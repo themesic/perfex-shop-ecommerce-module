@@ -1,10 +1,10 @@
-# Heatmap & Session Recording
+# 🔥 Heatmap & Session Recording
 
 Integrate third-party heatmap and session recording tools (Hotjar, Crazy Egg, Microsoft Clarity, etc.).
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -15,7 +15,7 @@ Integrate third-party heatmap and session recording tools (Hotjar, Crazy Egg, Mi
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 1. Go to **Setup → Settings → Products**.
 2. Under **Heatmap & Session Recording**:
@@ -35,7 +35,7 @@ Integrate third-party heatmap and session recording tools (Hotjar, Crazy Egg, Mi
 
 ---
 
-## Where the Script Loads
+## 📄 Where the Script Loads
 
 The script is typically loaded on:
 

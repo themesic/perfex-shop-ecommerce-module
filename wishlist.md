@@ -1,10 +1,10 @@
-# Wishlist
+# ❤️ Wishlist
 
 The wishlist lets customers save products for later.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -14,7 +14,7 @@ The wishlist lets customers save products for later.
 
 ---
 
-## Enabling the Wishlist
+## ⚙️ Enabling the Wishlist
 
 1. Go to **Setup → Settings → Products**.
 2. Under **Features**, enable **Wishlist**.
@@ -22,9 +22,9 @@ The wishlist lets customers save products for later.
 
 ---
 
-## Customer Experience
+## 💫 Customer Experience
 
-- **Add to Wishlist** — Heart icon on product cards and detail pages (when logged in).
+- **Add to Wishlist** ❤️ — Heart icon on product cards and detail pages (when logged in).
 - **Wishlist page** — Accessible from the customer menu (e.g., "Wishlist" link).
 - **Add to cart** — From wishlist, customer can add individual items to cart.
 - **Add All to Cart** — Button to add all wishlist items to cart at once, then redirect to checkout.
@@ -39,6 +39,6 @@ The wishlist lets customers save products for later.
 
 ---
 
-## Wishlist in Reports
+## 📊 Wishlist in Reports
 
 Wishlist data can support analytics (e.g., most-wished products) if such reports are implemented.

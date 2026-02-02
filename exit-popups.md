@@ -1,10 +1,10 @@
-# Exit Popups
+# 🎯 Exit Popups
 
 Display targeted popups when visitors are about to leave, with optional coupons and calls-to-action.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -15,7 +15,7 @@ Display targeted popups when visitors are about to leave, with optional coupons 
 
 ---
 
-## Enabling Exit Popups
+## ⚙️ Enabling Exit Popups
 
 1. Go to **Setup → Settings → Products**.
 2. Under **Exit Popups**, enable the feature.
@@ -24,7 +24,7 @@ Display targeted popups when visitors are about to leave, with optional coupons 
 
 ---
 
-## Creating an Exit Popup
+## ➕ Creating an Exit Popup
 
 1. Go to **Products → Exit Popups**.
 2. Click **New Popup** (or **Add**).
@@ -50,7 +50,7 @@ Display targeted popups when visitors are about to leave, with optional coupons 
 
 ---
 
-## Trigger Types
+## ⚡ Trigger Types
 
 - **Exit intent** — Fires when the mouse leaves the viewport (intent to close tab).
 - **Time delay** — Fires after X seconds on the page.
@@ -58,14 +58,14 @@ Display targeted popups when visitors are about to leave, with optional coupons 
 
 ---
 
-## Targeting
+## 🎯 Targeting
 
 - **Target pages** — Restrict to specific URLs or page types.
 - **Cart required** — Only show if the cart has at least one item.
 
 ---
 
-## Testing Exit Popups
+## 🧪 Testing Exit Popups
 
 Exit popups run only on the customer shop frontend (`/products/client` and related pages). To test immediately:
 
@@ -76,7 +76,7 @@ Exit popups run only on the customer shop frontend (`/products/client` and relat
 
 ---
 
-## Tracking
+## 📊 Tracking
 
 - **Impressions** — When the popup is shown.
 - **Clicks** — When the CTA is clicked.

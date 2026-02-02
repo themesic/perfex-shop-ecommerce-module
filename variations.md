@@ -1,10 +1,10 @@
-# Product Variations
+# 🔄 Product Variations
 
 Product variations let you sell the same product with different options (e.g., size, color, material).
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -14,7 +14,7 @@ Product variations let you sell the same product with different options (e.g., s
 
 ---
 
-## Creating Variations
+## ➕ Creating Variations
 
 ### Step 1: Define Variation Types
 
@@ -23,12 +23,12 @@ Product variations let you sell the same product with different options (e.g., s
 3. Enter a **name** (e.g., "Size", "Color").
 4. Save.
 
-### Step 2: Add Variation Values
+### Step 2: Add Variation Values 📝
 
 1. For each variation, add **values** (e.g., for "Size": S, M, L).
 2. Each value can have its own sort order.
 
-### Step 3: Assign to Products
+### Step 3: Assign to Products 🔗
 
 1. Edit a product.
 2. In the **Variations** section, select the variation(s) to use.
@@ -38,7 +38,7 @@ Product variations let you sell the same product with different options (e.g., s
 
 ---
 
-## How Variations Work on the Frontend
+## 🖥️ How Variations Work on the Frontend
 
 - Customers see dropdowns or selectors for each variation.
 - When they choose options, the displayed price and availability update.
@@ -47,7 +47,7 @@ Product variations let you sell the same product with different options (e.g., s
 
 ---
 
-## Stock per Variation
+## 📊 Stock per Variation
 
 - Each variation combination can have its own quantity.
 - When an order is placed, the quantity for the selected combination is reduced.
@@ -55,7 +55,7 @@ Product variations let you sell the same product with different options (e.g., s
 
 ---
 
-## Best Practices
+## 💡 Best Practices
 
 - Keep variation names short and clear.
 - Use consistent values across products when possible.

@@ -1,10 +1,10 @@
-# Cron Jobs
+# ⏰ Cron Jobs
 
 Several features require scheduled tasks (cron jobs) to run. All URLs are listed in **Setup → Settings → Products** at the bottom.
 
 ---
 
-## Why Cron Jobs?
+## 🤔 Why Cron Jobs?
 
 - **Abandoned cart emails** — Sent only when the cron runs.
 - **Back-in-stock notifications** — Checked when the cron runs.
@@ -14,7 +14,7 @@ Without these crons, these features will not work.
 
 ---
 
-## Cron URLs
+## 🔗 Cron URLs
 
 | Feature | URL | Recommended |
 |---------|-----|-------------|
@@ -26,7 +26,7 @@ Replace `yoursite.com` with your actual domain.
 
 ---
 
-## How to Add to Crontab
+## 📝 How to Add to Crontab
 
 ### Linux / cPanel
 
@@ -62,7 +62,7 @@ Replace `yoursite.com` with your actual domain.
 
 ---
 
-## Testing
+## 🧪 Testing
 
 You can test by visiting the URL in a browser or running:
 

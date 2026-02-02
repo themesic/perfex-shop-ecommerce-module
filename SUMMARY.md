@@ -1,32 +1,32 @@
 # Table of contents
 
-## Introduction
+## 📖 Introduction
 
 * [Overview](README.md)
 
-## Getting Started
+## 🚀 Getting Started
 
 * [Installation](installation.md)
 * [Getting Started](getting-started.md)
 
-## Core Features
+## 📦 Core Features
 
 * [Products & Categories](products-and-categories.md)
 * [Product Variations](variations.md)
 * [Coupons](coupons.md)
 * [Orders & Checkout](orders-and-checkout.md)
 
-## Client Area
+## 🛍️ Client Area
 
 * [Product Detail Pages & SEO](product-detail-pages-seo.md)
 * [Wishlist](wishlist.md)
 * [Digital Downloads](digital-downloads.md)
 
-## Reports & Analytics
+## 📊 Reports & Analytics
 
 * [Analytics & Reports](analytics-and-reports.md)
 
-## Marketing & Conversion
+## 📢 Marketing & Conversion
 
 * [Abandoned Cart](abandoned-cart.md)
 * [Remarketing](remarketing.md)
@@ -35,7 +35,7 @@
 * [Marketing Features](marketing-features.md)
 * [Heatmap & Session Recording](heatmap-and-session-recording.md)
 
-## Configuration
+## ⚙️ Configuration
 
 * [Settings](settings.md)
 * [Cron Jobs](cron-jobs.md)

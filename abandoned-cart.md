@@ -1,10 +1,10 @@
-# Abandoned Cart
+# 🛒 Abandoned Cart
 
 Recover lost sales by emailing customers who left items in their cart.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -15,7 +15,7 @@ Recover lost sales by emailing customers who left items in their cart.
 
 ---
 
-## Prerequisites
+## ✅ Prerequisites
 
 - **Abandoned cart tracking** — Must be enabled.
 - **Abandoned cart email** — Must be enabled.
@@ -25,7 +25,7 @@ Recover lost sales by emailing customers who left items in their cart.
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 1. Go to **Setup → Settings → Products**.
 2. Under **Features**, enable **Abandoned cart tracking**.
@@ -40,7 +40,7 @@ Recover lost sales by emailing customers who left items in their cart.
 
 ---
 
-## Email Template
+## 📧 Email Template
 
 The abandoned cart email uses Perfex's standard email template system. You can fully customize the subject and body in **Setup → Email Templates**.
 
@@ -71,7 +71,7 @@ The template must be **active** for the cron to send emails. If disabled, no aba
 
 ---
 
-## Cron Job Setup
+## ⏰ Cron Job Setup
 
 Add the abandoned cart cron URL to your server's crontab:
 
@@ -83,7 +83,7 @@ Run daily (e.g., 9:00 AM). See [Cron Jobs](cron-jobs.md) for full details.
 
 ---
 
-## How It Works
+## 🔄 How It Works
 
 1. When a logged-in customer reaches checkout, their cart is stored.
 2. When they leave without purchasing, the cart remains in the database.
@@ -94,6 +94,6 @@ Run daily (e.g., 9:00 AM). See [Cron Jobs](cron-jobs.md) for full details.
 
 ---
 
-## WhatsApp/SMS Integration
+## 📱 WhatsApp/SMS Integration
 
 If **WhatsApp/SMS Notifications** are configured with an **abandoned_cart** trigger, SMS/WhatsApp messages can also be sent. See [WhatsApp & SMS Notifications](whatsapp-sms-notifications.md).

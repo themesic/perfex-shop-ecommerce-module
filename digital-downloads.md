@@ -1,10 +1,10 @@
-# Digital Downloads
+# 📥 Digital Downloads
 
 Sell downloadable files (eBooks, software, music, etc.) with automatic delivery.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -16,7 +16,7 @@ Sell downloadable files (eBooks, software, music, etc.) with automatic delivery.
 
 ---
 
-## Enabling Digital Downloads
+## ⚙️ Enabling Digital Downloads
 
 1. Go to **Setup → Settings → Products**.
 2. Under **Features**, enable **Digital downloads**.
@@ -24,7 +24,7 @@ Sell downloadable files (eBooks, software, music, etc.) with automatic delivery.
 
 ---
 
-## Creating a Digital Product
+## ➕ Creating a Digital Product
 
 1. Go to **Products → Products** and add or edit a product.
 2. Check **No quantity (digital product)** or set **Product type** to **Digital**.
@@ -34,7 +34,7 @@ Sell downloadable files (eBooks, software, music, etc.) with automatic delivery.
 
 ---
 
-## Customer Flow
+## 🛒 Customer Flow
 
 1. Customer purchases the digital product.
 2. Invoice is paid.
@@ -43,14 +43,14 @@ Sell downloadable files (eBooks, software, music, etc.) with automatic delivery.
 
 ---
 
-## Access Control
+## 🔐 Access Control
 
 - Downloads are only available to customers who have **paid** for the product.
 - Access is tied to the customer account and invoice status.
 
 ---
 
-## File Storage
+## 📁 File Storage
 
 - Files are stored in the module's uploads folder (e.g., `uploads/products/digital/`).
 - Ensure the folder has correct write permissions.

@@ -1,10 +1,10 @@
-# Coupons
+# 🎟️ Coupons
 
 Coupons allow you to offer discounts (percentage or fixed amount) to customers at checkout.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -14,7 +14,7 @@ Coupons allow you to offer discounts (percentage or fixed amount) to customers a
 
 ---
 
-## Creating a Coupon
+## ➕ Creating a Coupon
 
 1. Go to **Products → Coupons**.
 2. Click **New Coupon** (or **Add**).
@@ -35,7 +35,7 @@ Coupons allow you to offer discounts (percentage or fixed amount) to customers a
 
 ---
 
-## Coupon Rules
+## 📜 Coupon Rules
 
 - **Product restriction** — Coupon applies only when restricted products are in the cart.
 - **Category restriction** — Coupon applies only when products from restricted categories are in the cart.
@@ -44,7 +44,7 @@ Coupons allow you to offer discounts (percentage or fixed amount) to customers a
 
 ---
 
-## Customer Flow
+## 🛒 Customer Flow
 
 1. Customer adds products to cart and goes to checkout.
 2. Enters coupon code in the coupon field.
@@ -54,13 +54,13 @@ Coupons allow you to offer discounts (percentage or fixed amount) to customers a
 
 ---
 
-## Enabling Coupons
+## ⚙️ Enabling Coupons
 
 Coupons can be enabled or disabled globally in **Setup → Settings → Products** under the General section (**Coupons disabled** toggle).
 
 ---
 
-## Coupon vs. Gift Card
+## 🎁 Coupon vs. Gift Card
 
-- **Coupon** — One-time or limited-use discount code.
-- **Gift card** — Stored balance that can be applied until it runs out. See [Marketing Features](marketing-features.md#gift-cards).
+- **Coupon** 🎟️ — One-time or limited-use discount code.
+- **Gift card** 🎁 — Stored balance that can be applied until it runs out. See [Marketing Features](marketing-features.md#gift-cards).

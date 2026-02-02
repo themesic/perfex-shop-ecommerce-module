@@ -1,10 +1,10 @@
-# WhatsApp & SMS Notifications
+# 📱 WhatsApp & SMS Notifications
 
 Send WhatsApp or SMS notifications for order events, abandoned carts, and more.
 
 ---
 
-## Overview
+## 📋 Overview
 
 **Flow:**
 
@@ -15,7 +15,7 @@ Send WhatsApp or SMS notifications for order events, abandoned carts, and more.
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 ### Gateway URLs
 
@@ -26,13 +26,13 @@ Send WhatsApp or SMS notifications for order events, abandoned carts, and more.
    - Enter **WhatsApp Gateway URL** — Your WhatsApp provider's webhook/API endpoint.
 3. Save.
 
-### Per-Template Override
+### Per-Template Override 🔧
 
 Each notification template can use the **global gateway** or a **custom webhook URL**.
 
 ---
 
-## Creating a Notification Template
+## ➕ Creating a Notification Template
 
 1. Go to **Products → Notifications** (or **Product Notifications**).
 2. Click **New Notification**.
@@ -53,7 +53,7 @@ Each notification template can use the **global gateway** or a **custom webhook 
 
 ---
 
-## Merge Fields
+## 📝 Merge Fields
 
 Use these placeholders in the message template:
 
@@ -80,7 +80,7 @@ Use these placeholders in the message template:
 
 ---
 
-## Webhook Body
+## 📦 Webhook Body
 
 The default body format is often:
 
