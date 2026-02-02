@@ -8,8 +8,6 @@ This section covers product and category management in detail.
 
 Categories help organize your catalog and improve navigation.
 
-![Products Categories](assets/images/category-create.png)
-
 ### Creating a Category
 
 1. Go to **Products → Products Categories**.
@@ -20,8 +18,6 @@ Categories help organize your catalog and improve navigation.
    - **Parent category** — For subcategories
    - **Active** — Enable or disable
 4. Save.
-
-![Category form](assets/images/category-form.png)
 
 ### Editing a Category
 
@@ -39,8 +35,6 @@ You can create parent and child categories for a structured catalog (e.g., Elect
 
 1. Navigate to **Products → Products**.
 2. Click **New Product**.
-
-![Products list and New Product](assets/images/product-new.png)
 3. Complete the form:
 
 | Field | Description |
@@ -58,8 +52,6 @@ You can create parent and child categories for a structured catalog (e.g., Elect
 | **Slug** | URL-friendly name (for detail pages) |
 
 4. Click **Save**.
-
-![Product form](assets/images/product-form.png)
 
 ### Product Types
 

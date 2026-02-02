@@ -25,18 +25,6 @@
 - [Products & Categories](products-and-categories.md)
 - [Settings](settings.md)
 
-## Regenerating Screenshots
-
-Some images are generated from HTML previews in `previews/`. To regenerate them:
-
-```bash
-cd gitbook
-npm install
-npm run screenshots
-```
-
-This captures `settings-full.png`, `checkout-full.png`, and `product-detail-full.png` using Puppeteer.
-
 ---
 
 *Documentation version: 1.3.4 — Last updated: 2025*

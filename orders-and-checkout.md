@@ -17,15 +17,12 @@ Customer browses products → Adds to cart → Goes to checkout → Places order
 1. **Browse products** — Customer views products (with optional category filter).
 2. **Add to cart** — Clicks "Add to Cart" (with variation selection if applicable).
 3. **View cart / Place order** — Clicks "View Cart and Checkout".
-4. **Checkout page** — Sees cart items and can:
+4. **Checkout page** — Sees cart items, can:
    - Adjust quantities
    - Remove items
    - Apply coupon (if enabled)
    - Apply gift card (if enabled)
    - Opt in to newsletter (if enabled)
-
-![Checkout page](assets/images/checkout-full.png)
-
 5. **Place order** — Submits the form.
 6. **Invoice created** — Perfex creates an invoice for the order.
 7. **Payment** — Customer is redirected to the invoice to pay.
@@ -48,8 +45,6 @@ Staff can create orders on behalf of customers without using the storefront:
 ## Order History
 
 1. Go to **Products → Order History**.
-
-![Order History](assets/images/order-history.png)
 2. View all orders with:
    - Order ID
    - Client

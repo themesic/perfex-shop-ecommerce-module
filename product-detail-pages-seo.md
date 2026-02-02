@@ -16,8 +16,6 @@ Individual product pages improve user experience and SEO.
 
 - Each product can have a **slug** (URL-friendly identifier).
 - Products are accessible at: `yoursite.com/products/client/product/product-slug`
-
-![Product detail page with add to cart, recommendations, and alerts](assets/images/product-detail-full.png)
 - If slug is empty, the product ID may be used or the product may only appear in the listing.
 
 ---

@@ -33,8 +33,6 @@ Navigate to **Products → Analytics** (or Reports → Analytics).
 ## Order Report
 
 1. Go to **Reports → Order Report** (or Products → Order Report).
-
-![Order Report](assets/images/reports-order.png)
 2. View order data with date filters.
 3. Create custom charts for specific date ranges.
 
@@ -43,8 +41,6 @@ Navigate to **Products → Analytics** (or Reports → Analytics).
 ## Quantities Report
 
 1. Go to **Reports → Quantities Report**.
-
-![Quantities Report](assets/images/reports-quantities.png)
 2. Monitor product quantities.
 3. Products at or below the **low quantity** threshold (from Settings) are highlighted.
 
