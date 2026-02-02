@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfex Shop - Settings Preview</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f1f5f9; padding: 24px; margin: 0; font-size: 14px; }
+    .products-settings-wrap { max-width: 960px; margin: 0 auto; }
+    .settings-section-card { background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.08); margin-bottom: 24px; overflow: hidden; border: 1px solid #e8ecf1; }
+    .settings-section-header { padding: 16px 20px; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-bottom: 1px solid #e8ecf1; display: flex; align-items: center; gap: 12px; }
+    .section-icon { width: 40px; height: 40px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; color: #fff; flex-shrink: 0; }
+    .icon-general { background: linear-gradient(135deg, #64748b 0%, #475569 100%); }
+    .icon-features { background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); }
+    .icon-shipping { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+    .icon-remarketing { background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); }
+    .settings-section-header h4 { margin: 0; font-size: 15px; font-weight: 600; color: #1e293b; }
+    .settings-section-body { padding: 20px 24px; }
+    .settings-row { display: flex; flex-wrap: wrap; gap: 20px 24px; margin-bottom: 20px; }
+    .settings-field { flex: 1; min-width: 200px; }
+    .control-label { font-weight: 500; color: #334155; font-size: 13px; display: block; margin-bottom: 6px; }
+    .form-control { width: 100%; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 14px; }
+    .btn-toggle { display: inline-flex; align-items: center; gap: 8px; }
+    .btn-toggle span { color: #64748b; font-size: 13px; }
+    .settings-subheading { font-size: 12px; color: #64748b; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 12px; font-weight: 600; }
+    .settings-divider { height: 1px; background: #e8ecf1; margin: 24px 0; }
+  </style>
+</head>
+<body>
+  <div class="products-settings-wrap">
+    <div class="settings-section-card">
+      <div class="settings-section-header">
+        <div class="section-icon icon-general"><i class="fa fa-cog"></i></div>
+        <h4>General</h4>
+      </div>
+      <div class="settings-section-body">
+        <div class="settings-row">
+          <div class="settings-field">
+            <label class="control-label">Products menu disabled</label>
+            <div class="btn-toggle"><span>No</span> <input type="checkbox" checked></div>
+          </div>
+          <div class="settings-field">
+            <label class="control-label">Coupons disabled</label>
+            <div class="btn-toggle"><span>No</span> <input type="checkbox"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="settings-section-card">
+      <div class="settings-section-header">
+        <div class="section-icon icon-features"><i class="fa fa-puzzle-piece"></i></div>
+        <h4>Features</h4>
+      </div>
+      <div class="settings-section-body">
+        <div class="settings-row">
+          <div class="settings-field">
+            <label class="control-label">Wishlist</label>
+            <div class="btn-toggle"><span>Yes</span> <input type="checkbox" checked></div>
+          </div>
+          <div class="settings-field">
+            <label class="control-label">Product detail pages</label>
+            <div class="btn-toggle"><span>Yes</span> <input type="checkbox" checked></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="settings-section-card">
+      <div class="settings-section-header">
+        <div class="section-icon icon-shipping"><i class="fa fa-truck"></i></div>
+        <h4>Shipping & Tax</h4>
+      </div>
+      <div class="settings-section-body">
+        <div class="settings-row">
+          <div class="settings-field">
+            <label class="control-label">Low quantity</label>
+            <input type="number" class="form-control" value="10">
+          </div>
+          <div class="settings-field">
+            <label class="control-label">Flat shipping</label>
+            <input type="number" class="form-control" value="0">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="settings-section-card">
+      <div class="settings-section-header">
+        <div class="section-icon icon-remarketing"><i class="fa fa-bullseye"></i></div>
+        <h4>Remarketing</h4>
+      </div>
+      <div class="settings-section-body">
+        <div class="settings-subheading">Facebook Pixel</div>
+        <div class="settings-row">
+          <div class="settings-field">
+            <label class="control-label">Facebook Pixel enabled</label>
+            <div class="btn-toggle"><span>No</span> <input type="checkbox"></div>
+          </div>
+          <div class="settings-field">
+            <label class="control-label">Pixel ID</label>
+            <input type="text" class="form-control" placeholder="e.g. 123456789012345">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -19,6 +19,8 @@ Before installing, ensure you have:
    - **upload.zip** — The module package to install
    - **documentation** — Help files (optional)
 
+![Extracted folder contents](assets/images/installation-extract.png)
+
 ## Step 2: Upload the Module
 
 1. Log in to your **Perfex CRM Admin** area.
@@ -27,11 +29,19 @@ Before installing, ensure you have:
 4. Select the **upload.zip** file from the extracted folder.
 5. Click **Install**.
 
+![upload.zip contains the module](assets/images/installation-upload-zip.png)
+
+![Setup → Modules](assets/images/installation-modules-menu.png)
+
+![Select upload.zip and Install](assets/images/installation-install.png)
+
 ## Step 3: Activate the Module
 
 1. After installation, locate **Perfex Shop** (or **Products**) in the module list.
 2. Click **Activate**.
 3. You should see a success message indicating the module is active.
+
+![Activate the module](assets/images/installation-activate.png)
 
 ## Step 4: Verify Installation
 

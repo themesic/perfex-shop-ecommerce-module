@@ -2,6 +2,10 @@
 
 All module settings are under **Setup → Settings → Products**. This page summarizes every option.
 
+![Products Settings page](assets/images/settings-full.png)
+
+![Settings - General and Features](assets/images/settings-products.png)
+
 ---
 
 ## General
