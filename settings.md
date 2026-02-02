@@ -2,6 +2,10 @@
 
 All module settings are under **Setup → Settings → Products**. This page summarizes every option.
 
+![Products Settings page](assets/images/settings-full.png)
+
+![Settings - General and Features](assets/images/settings-products.png)
+
 ---
 
 ## General
@@ -93,7 +97,9 @@ All module settings are under **Setup → Settings → Products**. This page sum
 | **Referral commission %** | Commission percentage |
 | **Referral commission fixed** | Fixed commission per order |
 | **Upsell** | Post-purchase upsell |
-| **Social proof** | "X customers bought" |
+| **Social proof** | "X customers bought" + "X just purchased" |
+| **Recent purchase (hours)** | How many hours to show "X just purchased" (1–168) |
+| **Show "Someone" instead of names** | Use anonymous "Someone" or show first name |
 | **A/B testing** | (Placeholder) |
 | **Segmentation** | (Placeholder) |
 

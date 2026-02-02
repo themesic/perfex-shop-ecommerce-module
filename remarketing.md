@@ -12,7 +12,9 @@ Remarketing tags fire on key ecommerce events:
 - **ViewContent** — Product detail views
 - **AddToCart** — Items added to cart
 - **InitiateCheckout** — Checkout page loaded
-- **Purchase** — Order completed and paid
+- **Purchase** — Order completed and paid (thank-you page)
+
+Currency is taken from your store's base currency (Setup → Settings → Currencies). Events include value, currency, and item details for GA4 and Facebook compatibility.
 
 ---
 

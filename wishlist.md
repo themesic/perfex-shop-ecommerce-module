@@ -24,9 +24,10 @@ The wishlist lets customers save products for later.
 
 ## Customer Experience
 
-- **Add to Wishlist** — Button on product cards and detail pages (when logged in).
+- **Add to Wishlist** — Heart icon on product cards and detail pages (when logged in).
 - **Wishlist page** — Accessible from the customer menu (e.g., "Wishlist" link).
-- **Add to cart** — From wishlist, customer can add items to cart.
+- **Add to cart** — From wishlist, customer can add individual items to cart.
+- **Add All to Cart** — Button to add all wishlist items to cart at once, then redirect to checkout.
 - **Remove** — Remove items from the wishlist.
 
 ---

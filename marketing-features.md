@@ -166,11 +166,15 @@ Show purchase activity to build trust.
 
 ### Flow
 
-- On product detail pages, when enabled: **"X customers bought this product"** is displayed (from order history).
+- On product detail pages, when enabled:
+  - **"X customers bought this product"** — Total sold count from order history.
+  - **"X just purchased this"** — Recent purchase message (e.g., "Someone just purchased this" or "John D. just purchased this"), based on recent paid orders within the configured time window.
 
 ### Configuration
 
 - Enable **Social proof** in Settings.
+- **Recent purchase (hours)** — How long to show "X just purchased" (default 24, max 168).
+- **Show "Someone" instead of names** — When Yes, displays "Someone just purchased this". When No, displays the buyer's first name (e.g., "John D. just purchased this").
 
 ---
 
@@ -197,4 +201,17 @@ These features have database tables and toggles. Full logic (traffic split, segm
 
 ## Email Templates
 
-Marketing-related email templates (review requests, back-in-stock, price drop, newsletter welcome, gift card, referral invite, etc.) are registered with Perfex's email system. Manage them in **Setup → Email Templates** — look for the **Products** or **Marketing** section. Merge fields (e.g., `{product_name}`, `{product_link}`) are available for customization.
+Marketing-related email templates are registered with Perfex's email system. Manage them in **Setup → Email Templates** — look for the **Products** type.
+
+| Template | Merge fields | Used by |
+|----------|--------------|---------|
+| **Abandoned Cart Reminder** | `{client_name}`, `{cart_total}`, `{cart_link}`, `{companyname}` | Abandoned cart cron |
+| **Product Review Request** | `{client_name}`, `{order_id}`, `{product_link}`, `{companyname}` | Review requests |
+| **Product Back In Stock** | `{product_name}`, `{product_link}`, `{companyname}`, `{store_link}` | Back-in-stock cron |
+| **Product Price Drop Alert** | `{product_name}`, `{product_price}`, `{product_link}`, `{companyname}`, `{store_link}` | Price drop cron |
+| **Newsletter Welcome** | `{client_name}`, `{store_link}`, `{companyname}` | Newsletter signup |
+| **Gift Card** | `{recipient_name}`, `{gift_card_amount}`, `{currency}`, `{gift_card_code}`, `{gift_card_expiry}`, `{store_link}`, `{companyname}` | Gift card delivery |
+| **Referral Invite** | `{referrer_name}`, `{referral_code}`, `{store_link}`, `{companyname}` | Referral program |
+| **Order Placed (Before Payment)** | `{client_name}`, `{order_id}`, `{total}`, `{currency}`, `{invoice_link}`, `{companyname}` | Order placed |
+
+**Note:** The **Abandoned Cart Reminder** template is disabled by default. You must activate it in **Setup → Email Templates** for abandoned cart emails to be sent.

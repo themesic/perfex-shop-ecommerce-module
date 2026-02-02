@@ -65,6 +65,17 @@ Display targeted popups when visitors are about to leave, with optional coupons 
 
 ---
 
+## Testing Exit Popups
+
+Exit popups run only on the customer shop frontend (`/products/client` and related pages). To test immediately:
+
+1. Open your store URL with `?products_exit_popup_test=1` appended, e.g.:  
+   `https://yoursite.com/products/client?products_exit_popup_test=1`
+2. In test mode, the first available popup will appear after ~500 ms (or use **Time Delay** with a few seconds for reliable testing).
+3. Alternatively, create a popup with trigger **Time Delay** (e.g., 3 sec) or **Scroll Depth** (e.g., 50%) for easier manual testing.
+
+---
+
 ## Tracking
 
 - **Impressions** — When the popup is shown.

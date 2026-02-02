@@ -19,6 +19,7 @@ Recover lost sales by emailing customers who left items in their cart.
 
 - **Abandoned cart tracking** — Must be enabled.
 - **Abandoned cart email** — Must be enabled.
+- **Abandoned Cart Reminder** email template — Must be **active** in **Setup → Email Templates** (type: Products).
 - **Cron job** — Must be configured (see [Cron Jobs](cron-jobs.md)).
 - Customer must be **logged in** (carts are tied to client accounts).
 
@@ -31,7 +32,42 @@ Recover lost sales by emailing customers who left items in their cart.
 3. Under **Abandoned Cart Email**:
    - Enable **Send abandoned cart reminder emails**.
    - Set **Delay before sending** (hours), e.g., 24.
-4. Save.
+4. Go to **Setup → Email Templates**.
+5. Find **Abandoned Cart Reminder** (type: **Products**).
+6. **Activate** the template (it is disabled by default).
+7. Customize the subject and message using the merge fields below.
+8. Save.
+
+---
+
+## Email Template
+
+The abandoned cart email uses Perfex's standard email template system. You can fully customize the subject and body in **Setup → Email Templates**.
+
+**Merge fields:**
+
+| Merge field | Description |
+|-------------|-------------|
+| `{client_name}` | Customer or company name |
+| `{cart_total}` | Formatted cart total (e.g., USD 99.00) |
+| `{cart_link}` | Link back to checkout |
+| `{companyname}` | Your company name |
+
+**Example subject:** `You left items in your cart`
+
+**Example message:**
+```
+Hi {client_name},
+
+You have items worth {cart_total} in your cart.
+
+[Complete your purchase]({cart_link})
+
+Best regards,
+{companyname}
+```
+
+The template must be **active** for the cron to send emails. If disabled, no abandoned cart emails are sent.
 
 ---
 
